@@ -1,0 +1,23 @@
+{
+	"name": "elastic-lsp-client",
+	"description": "VSCode part of a language server",
+	"author": "Microsoft Corporation",
+	"license": "MIT",
+	"version": "1.0.0",
+	"publisher": "garrettc",
+	"repository": {
+		"type": "git",
+		"url": "https://ghe.spotify.net/garrettc/elastic-language-server"
+	},
+	"engines": {
+		"vscode": "^1.52.0"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.52.0",
+		"@vscode/test-electron": "^1.6.1",
+		"vscode-languageclient": "^7.0.0"
+	},
+	"dependencies": {
+		"vscode": "^1.1.37"
+	}
+}
